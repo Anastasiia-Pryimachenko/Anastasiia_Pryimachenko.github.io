@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: cover; 
+  max-width: 120%;
+}
+.container1 {
+  background-position: center;
+  background-size: cover;
+ padding: 0px;
+}
+.navbar {
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+ 
+}
+
+.logo {
+  background-position: top right;
+  background-size: cover;
+  height: 80px;
+  min-width: 20px;
+  max-width: 60px;
+  width: 60px;
+  cursor:pointer;
+  padding: 30px 20px 10px 30px;
+  /*margin-bottom: 190px;*/
+  
+   }
+body {
+  background-color: #FFFAE6;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+  
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: red;
+  color: black;
+}
+.text-block {
+  display: block;
+  grid-template-columns: 100%;
+  padding: 40px;
+  position: absolute;
+  top: 350px;
+  bottom: 350px;
+  right: 20px;
+  color: black;
+  font-size: 20px;
+  /*padding-left: 20px;
+  padding-right: 20px;*/
+ 
+}
+
+.intro {
+  font-size: 50px;
+  padding-left: 40px;
+  align-self: center;
+  padding-right: 40px;
+}
+section {
+  display: block;
+}
+.row {
+  display: flex;
+}
+.column {
+  float: right;
+  width: 50%;
+}
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  /*top: 0;
+  left: 0;
+  border: 1px solid #000;*/
+}
+.image2{
+  
+  position: absolute;
+  max-width: 100%;
+  min-width: 100px;
+  top: 350px;
+  left: 140px;
+  width: 200px;
+  height: 220px;
+  border: 3px solid #000;
+}
+.text-block0{
+  display: block;
+  grid-template-columns: 100%;
+  padding: 40px;
+  position: absolute;
+  top: 850px;
+  bottom: 350px;
+  left: 20px;
+  color: black;
+  font-size: 20px;
+}
+.poem {
+  text-align: center;
+  font-display: flex;
+  font-size: large;
+  font-size: 25px;
+  padding: 30px 10px 5px 10px;
+  color: #000;
+}
+.italic {
+  text-align: center;
+  font-style: italic;
+  font-display: flex;
+  padding: 0px 10px 10px 10px;
+  color: #000;
+}
+.virsh {
+  text-align: center;
+  font-display: flex;
+  font-size: large;
+  font-size: 25px;
+  padding: 10px 10px 40px 10px;
+  color: #000;
+}

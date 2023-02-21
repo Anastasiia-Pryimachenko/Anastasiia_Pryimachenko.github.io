@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: cover; 
+  max-width: 120%;
+}
+.container1 {
+  background-position: center;
+  background-size: cover;
+ padding: 0px;
+}
+.navbar {
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  background-position: top right;
+  background-size: cover;
+  height: 80px;
+  min-width: 20px;
+  max-width: 60px;
+  width: 60px;
+  cursor:pointer;
+  padding: 30px 20px 10px 30px;
+  /*margin-bottom: 190px;*/
+  
+   }
+body {
+  background-color: #FFFAE6;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+  
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: red;
+  color: black;
+}
+.sticker {
+  position: relative;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 40px;
+  background-color: #F7B2AD;
+}
+.two-column div {
+  background-color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.three-column {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 40px;
+  background-color: #CEB7B3;
+}
+.three-column div {
+  background-color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.raccoon {
+  position: flex;
+  height: 300px;
+  width: 300px;
+  max-width: 100%;
+  padding: 0px 30px 0px 30px;
+  }
+  .column1 {
+    align-items: center;
+    padding: 20px 0px 0px 20px;
+    font-size: 40px;
+  }
+
+.translate{
+  padding: 0px 10px 0px 10px;
+}
+.text-block1 {
+  display: block;
+  grid-template-columns: 100%;
+  padding: 80px;
+  position: absolute;
+  top: 180px;
+  left: 20px;
+  right: 20px;
+  bottom: 350px;
+  color: black;
+  font-size: 20px;
+}
+.col-sm-6{
+  float: right;
+  width: 70%;
+  min-width: 70%;
+}
+.row1 {
+  display: flex;
+}
+.leopard {
+  position: flex;
+  height: 300px;
+  width: 450px;
+  max-width: 100%;
+  padding: 90px 20px 100px 20px;
+  margin-left: 20px;
+  float: right; 
+}
+.column2 {
+  max-width: 100%;
+  float: right;
+  padding: 60px 40px 0px 20px;
+  font-size: 40px;
+}
+.row2 {
+  display: flex; 
+}
+.text-block2 {
+  display: block;
+  float: right;
+  grid-template-columns: 100%;
+  padding: 80px;
+  top: 800px;
+  left: 20px;
+  right: 0px;
+  bottom: 350px;
+  color: black;
+  font-size: 20px;
+  position:absolute;
+}
+.col-sm-6 {
+  float: right;
+  width: 70%;
+  padding: auto;
+}
+.leopard-text {
+  float:right; 
+}

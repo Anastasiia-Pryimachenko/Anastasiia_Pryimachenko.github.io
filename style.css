@@ -1,0 +1,279 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+
+  background-image: url(backimages/kyiv.png);
+  background-position: center;
+  background-size: cover;
+ padding: 0px;
+}
+.navbar {
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+}
+.logo {
+  padding: 30px 20px 10px 30px;
+  background-position: right top;
+  background-size: cover;
+  height: 80px;
+  min-width: 20px;
+  width: 60px;
+  cursor:pointer;
+  }
+/*nav {
+  flex: 1;
+  padding-left: 60px;
+}*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+}
+nav li {
+  float: right;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+/*nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}*/
+nav li a:hover {
+  background-color: yellow;
+  color: black;
+}
+.content {
+  margin-left: 45%;
+  margin-top: 10%;
+}
+.kyiv {
+  max-width: 120%;
+  height: auto;
+  width: auto;
+}
+.kyiv .responsive {
+  width: 100%;
+  height: auto;
+  
+}
+
+body {
+  background-color: #034FFF;
+  font-family: 'Lora', serif;
+}
+.header {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+#projects .two-column {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+#about .two-column {
+	background-color: #84bf92;
+}
+footer {
+  background-color: #FFFF8D;
+  padding: 40px;
+}
+.telegram .btn{
+  display: inline-block;
+  background: linear-gradient(45deg, #0C6EFF, #0B7AFF);
+  border-radius: 6px;
+  padding: 10px 20px 10px 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #FFF;
+  box-shadow: 3px 8px 22px rgb(152, 174, 241); 
+}
+footer p {
+  margin: 0;
+}
+.city-picture {
+  width: 500px;
+}
+.two-column {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 40px;
+  background-color: black;
+}
+.two-column div {
+  background-color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.three-column {
+  
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 40px;
+  background-color: black;
+ 
+}
+.three-column div {
+  background-color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.start {
+  text-align: justify;
+  font-display: flex;
+  font-size: large;
+  padding: 10px 10px 10px 10px;
+}
+.start2 {
+  text-align: center;
+  font-display: flex;
+  font-size: large;
+  padding: 10px 10px 10px 10px;
+  color: #BFCDDE;
+}
+.forum1 {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+.button {
+  
+  color: #FFFF00;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #0000FF;
+  padding: 3px;
+  border: #0000FF;
+  
+}
+.button:hover {
+  color: black;
+}
+
+.intro {
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+.pinguin-text {
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+}
+.music {
+  text-align: center;
+  padding: 10px 0px 0px 10px;
+}
+.music-q {
+  padding: 10px 10px 10px 10px;
+  align-items: center;
+}
+.words {
+  text-align: center;
+  padding: 10px 0px 0px 10px;
+}
+.words-q {
+  padding: 10px 10px 10px 10px;
+  align-items: center;
+}
+.points {
+list-style-type:circle;
+padding-left: 10px;
+size: 10px;
+}
+.photos {
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+.instagram {
+  color:#0000FF;
+  cursor: pointer;
+  padding: 0px 10px 10px 10px;
+  float: left bottom;
+}
+.instagram:hover {
+  color: red;
+}
+.instagram2 {
+  float: left bottom;
+  background-size: cover;
+  height: 60px;
+  min-width: 20px;
+  width: 60px;
+  cursor:pointer;
+  padding: 10px 0px 10px 0px;
+}
+.phone {
+  padding: 0px 10px 10px 10px;
+}
+
+
+/*#container {
+  width: 1100px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+header {
+  background-color: #333232;
+  padding: 0px;
+  margin: 0px;
+
+}*/
+/*header h2 {
+  margin: 0;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  nav li {
+  float: right;
+  }
+}*/
+
+
+
+
+
+
+
+
+/* Change the link color to #111 (black) on hover */
